@@ -1,0 +1,346 @@
+2014/01/28 10:16:27 [error] 26480#0: *1 FastCGI sent in stderr: "Unable to open primary script: /var/www/192.168.3.3/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.3.3"
+2014/01/28 10:16:27 [error] 26480#0: *1 FastCGI sent in stderr: "Unable to open primary script: /var/www/192.168.3.3/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.3.3"
+2014/01/28 10:16:34 [error] 26480#0: *1 FastCGI sent in stderr: "Unable to open primary script: /var/www/192.168.3.3/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /index.html HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.3.3"
+2014/01/28 10:20:09 [error] 26480#0: *6 FastCGI sent in stderr: "Unable to open primary script: /var/www/laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "HEAD / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "laravel.dev"
+2014/01/28 10:20:17 [error] 26480#0: *8 FastCGI sent in stderr: "Unable to open primary script: /var/www/laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "laravel.dev"
+2014/01/28 10:20:17 [error] 26480#0: *8 FastCGI sent in stderr: "Unable to open primary script: /var/www/laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "laravel.dev"
+2014/01/28 10:20:21 [error] 26480#0: *8 FastCGI sent in stderr: "Unable to open primary script: /var/www/laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "laravel.dev"
+2014/01/28 10:38:36 [error] 26480#0: *13 FastCGI sent in stderr: "Unable to open primary script: /var/www/192.168.3.3/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.3.3"
+2014/01/30 15:29:08 [error] 24225#0: *1 FastCGI sent in stderr: "Unable to open primary script: /var/www/192.168.3.3/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.3.3"
+2014/01/30 15:29:08 [error] 24225#0: *1 FastCGI sent in stderr: "Unable to open primary script: /var/www/192.168.3.3/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.3.3"
+2014/01/30 15:31:28 [error] 24225#0: *5 FastCGI sent in stderr: "Unable to open primary script: /var/www/192.168.3.3/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.3.3"
+2014/01/30 15:31:28 [error] 24225#0: *5 FastCGI sent in stderr: "Unable to open primary script: /var/www/192.168.3.3/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.3.3"
+2014/01/30 17:17:17 [error] 2164#0: *3 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Illuminate\Routing\Controller::detect() in /var/www/laravel.dev/app/routes.php on line 14
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->boot() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:689
+PHP message: PHP  10. Illuminate\Foundation\Application->bootApplication() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:537
+PHP message: PHP  11. Illuminate\Foundation\Application->fireAppCallbacks() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:554
+PHP message: PHP  12. call_user_func() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:770
+PHP message: PHP  13. {closure:/var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/start.php:208-256}() /var/www/laravel.dev/vendor/l
+2014/01/30 17:20:36 [error] 2164#0: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Illuminate\Routing\Controller::call() in /var/www/laravel.dev/app/routes.php on line 21
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:691
+PHP message: PHP  10. Illuminate\Routing\Router->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:716
+PHP message: PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:939
+PHP message: PHP  12. Illuminate\Routing\Route->run() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:969
+PHP message: PHP  13. call_user_func_array() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php:105
+PHP message: PHP  14. {closure:/var/www/laravel.
+2014/01/30 17:20:53 [error] 2164#0: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Illuminate\Routing\Controller::call() in /var/www/laravel.dev/app/routes.php on line 21
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:691
+PHP message: PHP  10. Illuminate\Routing\Router->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:716
+PHP message: PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:939
+PHP message: PHP  12. Illuminate\Routing\Route->run() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:969
+PHP message: PHP  13. call_user_func_array() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php:105
+PHP message: PHP  14. {closure:/var/www/laravel.
+2014/01/30 17:24:05 [error] 2164#0: *11 FastCGI sent in stderr: "Unable to open primary script: /var/www/laravel.dev/public/employee/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /employee/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "laravel.dev"
+2014/01/31 10:13:13 [error] 2164#0: *79 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/laravel.dev/app/controllers/EmployeeController.php on line 11
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:691
+PHP message: PHP  10. Illuminate\Routing\Router->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:716
+PHP message: PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:939
+PHP message: PHP  12. Illuminate\Routing\Route->run() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:969
+PHP message: PHP  13. call_user_func_array() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php:105
+PHP message: PHP  14. {closure:/var/www/l
+2014/01/31 10:23:06 [error] 2164#0: *94 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Section' not found in /var/www/laravel.dev/app/controllers/EmployeeController.php on line 10
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:691
+PHP message: PHP  10. Illuminate\Routing\Router->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:716
+PHP message: PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:939
+PHP message: PHP  12. Illuminate\Routing\Route->run() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:969
+PHP message: PHP  13. call_user_func_array() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php:105
+PHP message: PHP  14. {closure:/var/www/laravel.dev/app/rout
+2014/01/31 10:29:03 [error] 2164#0: *96 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '/' in /var/www/laravel.dev/app/storage/views/63de0b8f4bdb5b4594b1e4b45f78e82a on line 7
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:691
+PHP message: PHP  10. Illuminate\Routing\Router->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:716
+PHP message: PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:939
+PHP message: PHP  12. Illuminate\Routing\Router->prepareResponse() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:972
+PHP message: PHP  13. Symfony\Component\HttpFoundation\Response->__construct() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:13
+2014/01/31 10:43:45 [error] 2164#0: *114 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /var/www/laravel.dev/app/controllers/EmployeeController.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:691
+PHP message: PHP  10. Illuminate\Routing\Router->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:716
+PHP message: PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:939
+PHP message: PHP  12. Illuminate\Routing\Route->run() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:969
+PHP message: PHP  13. call_user_func_array() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php:105
+PHP message: PHP  14. {closure:/var
+2014/01/31 15:19:52 [error] 24357#0: *192 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/laravel.dev/app/storage/views/f79fd5f0439cc8d676f23711e241313b on line 36
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:691
+PHP message: PHP  10. Illuminate\Routing\Router->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:716
+PHP message: PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:939
+PHP message: PHP  12. Illuminate\Routing\Router->prepareResponse() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:972
+PHP message: PHP  13. Symfony\Component\HttpFoundation\Response->__construct() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routin
+2014/01/31 15:20:20 [error] 24357#0: *192 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /var/www/laravel.dev/app/storage/views/f79fd5f0439cc8d676f23711e241313b on line 36
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:691
+PHP message: PHP  10. Illuminate\Routing\Router->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:716
+PHP message: PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:939
+PHP message: PHP  12. Illuminate\Routing\Router->prepareResponse() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:972
+PHP message: PHP  13. Symfony\Component\HttpFoundation\Response->__construct() /var/www/laravel.dev/vendor/laravel/framework/src/Illumin
+2014/01/31 15:41:10 [error] 24356#0: *231 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '<' in /var/www/laravel.dev/app/storage/views/f79fd5f0439cc8d676f23711e241313b on line 39
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:691
+PHP message: PHP  10. Illuminate\Routing\Router->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:716
+PHP message: PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:939
+PHP message: PHP  12. Illuminate\Routing\Router->prepareResponse() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:972
+PHP message: PHP  13. Symfony\Component\HttpFoundation\Response->__construct() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php
+2014/01/31 15:44:13 [error] 24356#0: *235 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Illuminate\Routing\UrlGenerator::base() in /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 205
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:691
+PHP message: PHP  10. Illuminate\Routing\Router->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:716
+PHP message: PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:939
+PHP message: PHP  12. Illuminate\Routing\Router->prepareResponse() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:972
+PHP message: PHP  13. Symfony\Component\HttpFoundation\Response->__construct() /var/www/laravel.dev/vendo
+2014/01/31 15:44:13 [error] 24356#0: *235 FastCGI sent in stderr: "callStatic() /var/www/laravel.dev/app/storage/views/f79fd5f0439cc8d676f23711e241313b:37" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /employee HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "laravel.dev"
+2014/01/31 15:47:59 [error] 24356#0: *244 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected end of file in /var/www/laravel.dev/app/routes.php on line 37
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->boot() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:689
+PHP message: PHP  10. Illuminate\Foundation\Application->bootApplication() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:537
+PHP message: PHP  11. Illuminate\Foundation\Application->fireAppCallbacks() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:554
+PHP message: PHP  12. call_user_func() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:770
+PHP message: PHP  13. {closure:/var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/start.php:208-256}() /var/www/laravel.dev/vendor/laravel/framework/src/Illu
+2014/02/05 13:55:50 [error] 842#0: *436 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/05 13:58:54 [error] 842#0: *457 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/05 13:58:55 [error] 842#0: *457 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/05 13:58:59 [error] 842#0: *460 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/05 13:59:09 [error] 842#0: *460 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/05 13:59:11 [error] 842#0: *460 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/06 16:12:06 [error] 844#0: *672 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/06 16:12:18 [error] 846#0: *717 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/06 16:12:23 [error] 846#0: *718 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/06 16:12:35 [error] 846#0: *719 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/06 17:35:16 [error] 846#0: *1090 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/06 17:36:36 [error] 846#0: *1091 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/06 17:38:28 [error] 846#0: *1111 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:02:16 [error] 846#0: *2358 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:02:33 [error] 846#0: *2359 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:03:39 [error] 844#0: *2379 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:03:58 [error] 846#0: *2399 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:04:03 [error] 846#0: *2400 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:04:57 [error] 846#0: *2420 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:06:51 [error] 843#0: *2504 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:10:17 [error] 843#0: *2524 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:10:45 [error] 843#0: *2544 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:12:36 [error] 846#0: *2583 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:15:35 [error] 846#0: *2603 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:15:42 [error] 846#0: *2604 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:18:24 [error] 846#0: *2643 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:25:07 [error] 846#0: *2688 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:27:58 [error] 846#0: *2714 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:31:23 [error] 844#0: *2829 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:34:01 [error] 844#0: *2887 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 11:50:57 [error] 846#0: *2926 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 14:21:59 [error] 842#0: *3308 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 15:06:27 [error] 843#0: *3613 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 15:06:32 [error] 843#0: *3614 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 15:07:14 [error] 843#0: *3644 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 15:07:17 [error] 843#0: *3646 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 15:21:10 [error] 843#0: *3705 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 15:21:19 [error] 843#0: *3707 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 15:43:56 [error] 843#0: *3759 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 15:45:18 [error] 843#0: *3782 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 15:56:01 [error] 842#0: *3807 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 15:56:19 [error] 842#0: *3829 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 15:57:26 [error] 842#0: *3855 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 15:58:15 [error] 842#0: *3878 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:01:54 [error] 842#0: *3901 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:02:08 [error] 846#0: *3923 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:02:35 [error] 843#0: *3946 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:02:37 [error] 843#0: *3949 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:03:10 [error] 843#0: *3951 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:03:26 [error] 843#0: *3974 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:03:33 [error] 843#0: *3976 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:08:02 [error] 843#0: *3998 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:10:17 [error] 843#0: *4020 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:10:33 [error] 843#0: *4025 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:11:43 [error] 843#0: *4048 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:41:43 [error] 843#0: *4050 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:42:01 [error] 843#0: *4055 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:42:10 [error] 842#0: *4058 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:42:20 [error] 842#0: *4060 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:42:31 [error] 843#0: *4080 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:46:15 [error] 843#0: *4081 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ')', expecting ';' or '{' in /var/www/laravel.dev/app/controllers/EmployeeController.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:691
+PHP message: PHP  10. Illuminate\Routing\Router->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:716
+PHP message: PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:939
+PHP message: PHP  12. Illuminate\Routing\Route->run() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:969
+PHP message: PHP  13. call_user_func_array() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php:105
+PHP message: PHP  14. {closure:/va
+2014/02/07 16:46:36 [error] 843#0: *4083 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ')', expecting ';' or '{' in /var/www/laravel.dev/app/controllers/EmployeeController.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/laravel.dev/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Application->run() /var/www/laravel.dev/public/index.php:49
+PHP message: PHP   3. Stack\StackedHttpKernel->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:591
+PHP message: PHP   4. Illuminate\Cookie\Guard->handle() /var/www/laravel.dev/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+PHP message: PHP   5. Illuminate\Cookie\Queue->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+PHP message: PHP   6. Illuminate\Session\Middleware->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+PHP message: PHP   7. Illuminate\Http\FrameGuard->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:60
+PHP message: PHP   8. Illuminate\Foundation\Application->handle() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php:38
+PHP message: PHP   9. Illuminate\Foundation\Application->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:691
+PHP message: PHP  10. Illuminate\Routing\Router->dispatch() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:716
+PHP message: PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:939
+PHP message: PHP  12. Illuminate\Routing\Route->run() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:969
+PHP message: PHP  13. call_user_func_array() /var/www/laravel.dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php:105
+PHP message: PHP  14. {closure:/va
+2014/02/07 16:46:54 [error] 843#0: *4104 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:46:58 [error] 843#0: *4107 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:47:01 [error] 843#0: *4109 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:48:31 [error] 843#0: *4129 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:48:37 [error] 843#0: *4133 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:48:42 [error] 843#0: *4136 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:49:17 [error] 843#0: *4156 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:50:02 [error] 843#0: *4176 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:50:05 [error] 843#0: *4178 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:50:07 [error] 843#0: *4181 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:50:23 [error] 842#0: *4201 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:50:26 [error] 842#0: *4203 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:50:32 [error] 842#0: *4206 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:53:38 [error] 844#0: *4226 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:53:47 [error] 844#0: *4214 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:54:06 [error] 844#0: *4209 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:54:14 [error] 844#0: *4207 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:54:21 [error] 846#0: *4256 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:54:26 [error] 846#0: *4258 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:54:36 [error] 846#0: *4261 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/07 16:54:48 [error] 846#0: *4281 directory index of "/var/www/laravel.dev/public/data/pics/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/pics/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/employee"
+2014/02/12 16:33:12 [error] 24199#0: *1 FastCGI sent in stderr: "Unable to open primary script: /var/www/192.168.3.3/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.3.3"
+2014/02/12 16:33:13 [error] 24199#0: *1 FastCGI sent in stderr: "Unable to open primary script: /var/www/192.168.3.3/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.3.3"
+2014/02/12 16:33:13 [error] 24199#0: *1 FastCGI sent in stderr: "Unable to open primary script: /var/www/192.168.3.3/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.3.3"
+2014/02/12 16:33:18 [error] 24199#0: *1 FastCGI sent in stderr: "Unable to open primary script: /var/www/192.168.3.3/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.3.3"
+2014/02/12 16:34:36 [error] 24199#0: *7 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:34:36 [error] 24199#0: *7 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:34:36 [error] 24199#0: *7 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:35:32 [error] 24199#0: *11 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:35:34 [error] 24199#0: *11 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:35:36 [error] 24199#0: *11 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:35:43 [error] 24199#0: *11 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /lol HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:35:46 [error] 24199#0: *11 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:37:16 [error] 24199#0: *17 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:44:32 [error] 24199#0: *19 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:44:34 [error] 24199#0: *19 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:45:16 [error] 24199#0: *19 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /public HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:45:18 [error] 24199#0: *19 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /public/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:46:25 [error] 24199#0: *24 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /public/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:46:28 [error] 24199#0: *24 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:49:59 [error] 24199#0: *27 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:50:37 [error] 24199#0: *27 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:53:25 [error] 24199#0: *30 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:53:27 [error] 24199#0: *30 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:55:28 [error] 24199#0: *33 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:55:29 [error] 24199#0: *35 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:55:29 [error] 24199#0: *37 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:55:29 [error] 24199#0: *39 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:55:30 [error] 24199#0: *41 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:55:58 [error] 24199#0: *41 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /user HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:56:01 [error] 24199#0: *41 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET /user/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 16:57:28 [error] 24199#0: *45 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 17:18:47 [error] 24199#0: *47 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/12 17:18:49 [error] 24199#0: *49 FastCGI sent in stderr: "Unable to open primary script: /var/www/mtp-laravel.dev/public/index.php (No such file or directory)" while reading response header from upstream, client: 192.168.3.1, server: *.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "mtp-laravel.dev"
+2014/02/13 11:21:56 [error] 1683#0: *111 directory index of "/var/www/laravel.dev/public/data/" is forbidden, client: 192.168.3.1, server: *.dev, request: "GET /data/ HTTP/1.1", host: "laravel.dev", referrer: "http://laravel.dev/track"

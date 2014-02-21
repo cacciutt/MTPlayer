@@ -1,0 +1,17 @@
+table {
+	width:100% !important;
+    max-width:100% !important;
+}
+
+#app {
+	display:none;
+}
+
+#track-list button {
+	width:94%;
+	margin:3%;
+}
+
+#add-track {
+	margin-bottom:50px;
+}

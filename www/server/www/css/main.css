@@ -1,0 +1,160 @@
+body {
+ 	background: none repeat 0 0 #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 0;
+}
+
+#wrapper {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#f7c4b5;
+}
+
+body h1 {
+	padding:10px;
+	text-align: center;
+	background-color:#af3512;
+	color:white;
+}
+
+/* Contains the two canvas */
+#canvas-container {
+	position: relative;
+}
+
+canvas {
+	margin:30px;
+	border: solid 2Px black;
+}
+
+#graph-canvas {
+	background-color:gray;
+}
+
+#time-canvas {
+	top:0;
+	left:0;
+	position:absolute;
+}
+
+.sample {
+	border: solid white 1px;
+	background:black;
+}
+
+input[type='range'] {
+    -webkit-appearance: none !important;
+    background: none repeat scroll 0 0;
+    height:7px;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background:blue;
+    height:10px;
+    width:10px;
+}
+
+#bplay {
+	position:relative;
+}
+
+
+.main-menu {
+	display: table;
+	width:100%;
+	border-bottom:1px solid gray;
+}
+
+.line {
+	display:table-row;
+	text-align:center;
+	width:100%;
+}
+
+.choose-song {
+	display:table-cell;
+	width:40%;
+	border-right:1px solid gray;
+}
+
+.upload-song {
+	display:table-cell;
+	width:40%;
+	text-align: center;
+	border-left:1px solid gray;
+}
+
+.middle {
+	display:table-cell;
+	width:20%;
+	vertical-align: middle;
+	color:#aa3333 !important;
+}
+
+.label {
+	font-size:36px;
+	font-weight:bold;
+	font-family: Georgia;
+	color: #776666;
+}
+
+#formUpload {
+	padding-top: 10px;
+}
+
+#songs {
+	padding-top: 35px;
+}
+
+#songs select {
+   width: 80%;
+   border-radius: 0;
+   font-size:24px;
+   font-weight:bold;
+   text-align:center;
+   -webkit-appearance: none;
+}
+
+.song-content {
+	padding-top:20px;
+}
+
+#bplay {
+	color:green;
+}
+
+#bpause {
+	color:orange;
+}
+
+#bstop {
+	color:red;
+}
+
+.song-content {
+	display:none;
+	padding-top:20px;
+}
+
+.top-menu {
+	text-align: center;
+}
+
+#loading {
+	display:none;
+	text-align: center;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+#tracks {
+	float:right;
+	margin:30px;
+}
+
+#tracks span {
+	line-height:100px;
+	vertical-align: middle;
+}
